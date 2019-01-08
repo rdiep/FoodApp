@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical">
+    <!--Any of your code-->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_shareRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="330dp" />
+
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recycler_view_shareRecipe"
+        android:layout_margin="5dp"
+        android:background="@drawable/blue_button"
+        android:text="Share"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>
